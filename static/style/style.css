@@ -1,0 +1,22 @@
+body  {
+     background-color: black ;
+     background-image: url("/static/image.jpg");background-repeat: no-repeat;  height: 100%;
+     background-repeat: no-repeat;
+     background-size: cover;
+
+}
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#invalid{
+  background-image: url("/static/404.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-color:#343a40 ;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
