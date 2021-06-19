@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="jumbotron p-3 mb-2 bg-dark text-white">
+<form method="POST">
+{{form.hidden_tag()}}
+  <div class="form-group">
+    <label for="exampleInputEmail1">{{form.name.label(class="font-weight-bold")}} </label>
+     {{form.name(class="form-control" ,id="exampleInputPassword1")}}
+  </div>
+  {{form.submit(class="btn btn-success")}}
+</form>
+</div>
+{% endblock %}
