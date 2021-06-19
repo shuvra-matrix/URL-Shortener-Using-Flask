@@ -20,5 +20,7 @@ html, body {
   background-repeat: no-repeat;
   background-size: cover;
 }
-h3{overflow: auto}
-h4{overflow: auto}
+h3{
+  padding: 10px;
+  overflow: auto;}
+h4{  padding: 10px;overflow: auto}
